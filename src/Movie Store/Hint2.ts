@@ -1,8 +1,8 @@
-// Movie class should have functions for rentMovie, returnMovie, and incrementDaysRented
-// Customer class should have fields name (string) and rentals (an array of Movies)
-// Customer class should have functions for rentMovie and calculateRentalFees
+// // Movie class should have functions for rentMovie, returnMovie, and incrementDaysRented
+// // Customer class should have fields name (string) and rentals (an array of Movies)
+// // Customer class should have functions for rentMovie and calculateRentalFees
 
-//Example Customer class
+// //Example Customer class
 
 // export class Customer {
 //   name: string;
@@ -28,7 +28,7 @@
 //   }
 // }
 
-//Example test for customer class
+// //Example test for customer class
 // test("rentMovie() should add a movie to a customers rentals", () => {
 //   let testMovie = new Movie("Avatar");
 //   let testCustomer = new Customer("Bobby Joe");

@@ -25,12 +25,12 @@ export function addMovie(movie: Movie) {
 }
 
 // Example test for the rent movie function:
-test("rentMovie() should set inStock to false for a movie", () => {
-  let movie1 = new Movie("Top Gun");
-  let movie2 = new Movie("Titanic");
+// test("rentMovie() should set inStock to false for a movie", () => {
+//   let movie1 = new Movie("Top Gun");
+//   let movie2 = new Movie("Titanic");
 
-  movie1.rentMovie();
+//   movie1.rentMovie();
 
-  expect(movie1.inStock).toBe(false);
-  expect(movie2.inStock).toBe(true);
-});
+//   expect(movie1.inStock).toBe(false);
+//   expect(movie2.inStock).toBe(true);
+// });

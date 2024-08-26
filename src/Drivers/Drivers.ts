@@ -9,3 +9,13 @@ export enum DriverStatus {
   TOO_OLD = "too old",
   ELIGIBLE = "eligible",
 }
+
+export function status(age: number): DriverStatus {
+  if(age < 16) {
+    return DriverStatus.TOO_YOUNG;
+  } else if (age > 85) {
+    return DriverStatus.TOO_OLD
+  } else {
+    return DriverStatus.ELIGIBLE
+  }
+}
